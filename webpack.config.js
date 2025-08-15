@@ -30,6 +30,7 @@ const extensionConfig = {
   stats: {
     errorDetails: true,
   },
+  ignoreWarnings: [/Can't resolve 'canvas'/],
   module: {
     rules: [
       {

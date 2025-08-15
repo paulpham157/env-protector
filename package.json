@@ -121,7 +121,6 @@
   },
   "dependencies": {
     "bufferutil": "^4.0.8",
-    "canvas": "^2.11.2",
     "jsdom": "^25.0.0",
     "prettier": "^3.3.3",
     "utf-8-validate": "^6.0.4"
