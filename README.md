@@ -9,6 +9,12 @@
 
 ![Banner](assets/banner.png)
 
+## 🤔 Why this extension?
+
+Most similar extensions hide environment files only after they are opened, which means sensitive information is briefly visible - even if for a short moment. This approach isn't ideal for streamers or anyone concerned about accidentally exposing sensitive data, especially since the toggle feature in other extensions isn't very user-friendly.
+
+This extension takes a different approach: it asks you how you want to open the file before it's even opened, and operates according to your choice. This proactive protection ensures that sensitive information is never accidentally exposed during live streams or screen sharing.
+
 ## 🚀 Features
 
 - **🔒 Toggle Visibility of Environment Files**: Easily toggle the visibility of environment files in the sidebar. This command modifies your workspace settings by adding `"**/.env*": true` to the `files.exclude` section in your `settings.json`.  

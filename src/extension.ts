@@ -30,7 +30,7 @@ export function activate(context: vscode.ExtensionContext) {
           description: 'Mask environment values before opening the file',
         },
         {
-          label: 'Open Anyway',
+          label: 'Open with Default Editor',
           description: 'Open file with built in editor',
         },
       ]
@@ -56,7 +56,7 @@ export function activate(context: vscode.ExtensionContext) {
 
       quickPick.onDidAccept(async () => {
         const selectedItem = quickPick.selectedItems[0]
-        if (selectedItem?.label === 'Open Anyway') {
+        if (selectedItem?.label === 'Open with Default Editor') {
           // Reopen the document in the default text editor without asking
           await vscode.commands.executeCommand(
             'vscode.openWith',
